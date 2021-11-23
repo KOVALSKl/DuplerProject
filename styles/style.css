@@ -220,6 +220,25 @@ button.support-tariffs {
 }
 
 
+.self-improvement-block {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.self-improvement-block .block-title {
+    font-family: Montserrat;
+    font-weight: bold;
+    line-height: 1.1;
+    font-size: 24px;
+    color: #050c33;
+}
+
+.self-improvement-block .block-description {
+    color: #4f5a73;
+    font-family: Ubuntu!important;
+    font-size: 16px;
+}
+
 @media screen and (min-width: 768px){
     .support-block-title {
         font-size: 48px;
