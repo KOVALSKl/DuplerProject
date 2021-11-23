@@ -15,17 +15,64 @@ body, html {
 }
 
 #main-menu {
-    padding: 30px 0;
+    display: none;
+    background-color: transparent;
+    border: 0;
+}
+
+
+#main-menu .container {
+    padding-top: 30px!important;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-menu-title {
+    margin-right: 60px;
 }
 
 #menu {
     list-style-type: none;
-    font-family: Montserrat;
+    display: flex;    
+}
+
+#menu li {
+    margin-right: 30px;
+}
+
+#menu li a:link, #menu li a:visited {
+    color: #fff;
+    font-family: Ubuntu;
+    text-decoration: none;
     font-size: 12px;
-    line-height: 1;
+    line-height: 10px;
+    letter-spacing: 1pt;
     text-transform: uppercase;
-    display: flex;
-    
+    border-bottom: 3px solid transparent;
+    padding-bottom: 5px;
+    transition-duration: 0.5s;
+}
+
+#menu li a:hover, #menu li a.active {
+    border-bottom-color: #f14d34;
+}
+
+.other-info{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Montserrat; 
+    line-height: 1.4;
+    justify-self: flex-end;
+}
+
+.lang-collapse {
+    margin-left: 38px;
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    text-transform: uppercase;
 }
 
 #mobile-menu {
@@ -81,7 +128,6 @@ body, html {
     font-weight: bold;
     margin-bottom: 20px;
     line-height: 1.2;
-    margin-top: -25px;
 }
 
 .support-block-description {
@@ -173,12 +219,16 @@ button.support-tariffs {
     #mobile-menu {
         display: none;
     }
+    
     #main-menu {
-        display: inline-block;
+        display: initial;
     }
 
     .support-block-header {
         text-align: initial;
+    }
+    .achievement {
+        margin-bottom: 96px;
     }
 
 }

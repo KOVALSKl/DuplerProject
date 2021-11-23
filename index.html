@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="./styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,800" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
         crossorigin="anonymous"></script>
@@ -30,21 +32,26 @@
             <video autoplay muted playsinline loop id="support-block-background">
                 <source src="./images/video.mp4">
             </video>
-            <div id="main-menu">
-                <nav class="container">
-                    <div class="row container-fluid">
-                        <a class="logo col-md-2">
-                            <img src="./images/drupal-coder.svg" width="137" height="21" alt="Drupal coder">
-                        </a>
-                        <ul id="menu" class="col-md-8">
-                            <li><a class="active" href="#">Поддержка сайтов</a></li>
-                            <li><a href="#">Тарифы</a></li>
-                            <li><a href="#">Наши работы</a></li>
-                            <li><a href="#">Отзывы</a></li>
-                            <li><a href="#">Контакты</a></li>
-                        </ul>
+            <div class="navbar navbar-default" id="main-menu">
+                <div class="container">
+                    <a href="#" class="main-menu-title">
+                        <img src="images/drupal-coder.svg" width="137" height="21">
+                    </a>
+                    <ul id="menu">
+                        <li><a href="#" class="active">Поддержка сайтов</a></li>
+                        <li><a href="#">Тарифы</a></li>
+                        <li><a href="#">Наши работы</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                    <div class="other-info">
+                        8 800 222-26-73
+                        <div class="lang-collapse">
+                            <span style="vertical-align: middle;">Ru</span>
+                            <span class="caret"></span>
+                        </div>
                     </div>
-                </nav>
+                </div>
             </div>
             <div class="support-block">
                 <div class="container">
