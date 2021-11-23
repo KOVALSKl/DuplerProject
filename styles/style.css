@@ -44,7 +44,7 @@ body, html {
 
 #menu li a:link, #menu li a:visited {
     color: #fff;
-    font-family: Ubuntu;
+    font-family: Ubuntu, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
     font-size: 12px;
     line-height: 10px;
