@@ -222,11 +222,10 @@ button.support-tariffs {
 
 
 .self-improvement-block {
-    margin-bottom: 100px;
-    padding-top: 100px;
+    padding: 100px 0;
 }
 
-.self-improvement-block .block-title {
+.block-title {
     font-family: Montserrat;
     font-weight: bold;
     line-height: 1.1;
@@ -264,6 +263,75 @@ button.support-tariffs {
     font-family: Montserrat, sans-serif;
 }
 
+.support-from-dc-block {
+    margin-bottom: 55px;
+}
+
+.support-from-dc-block .block-title {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.support-opportunities {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 12px;
+}
+
+.support-opportunity-card {
+    margin-bottom: 5px;
+}
+
+.support-opportunity-card .card-number {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    opacity: 0.6;
+}
+
+.support-opportunity-card .card-title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    line-height: 1.22;
+    color: #050c33;
+}
+
+.support-opportunity-card .card-content {
+    padding: 25px 25px 25px;
+    margin-left: -12px;
+    margin-right: -12px;
+    background: #fff;
+    position: relative;
+    min-height: 292px;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px rgba(5,12,51, .1);
+}
+
+.support-opportunity-card .card-description {
+    font-size: 16px;
+    line-height: 1.37;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    opacity: 0.8;
+    z-index: 10;
+    position: relative;
+}
+
+
+.support-opportunity-card .card-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.support-opportunity-card .card-image img {
+    width: 100%;
+    height: auto;
+}
+
 @media screen and (min-width: 768px){
     #mobile-menu {
         display: none;
@@ -287,14 +355,20 @@ button.support-tariffs {
         margin-bottom: 30px;
     }
 
-    .self-improvement-block .block-title{
+    .block-title{
         font-size: 32px;
     }
 
 }
 
 @media screen and (max-width: 767px){
-    .self-improvement-block .block-title{
+    .block-title{
         font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .improvement-icon {
+        text-align: initial;
     }
 }
