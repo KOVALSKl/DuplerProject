@@ -227,7 +227,7 @@ button.support-tariffs {
 
 .block-title {
     font-family: Montserrat;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 1.1;
     font-size: 36px;
     color: #050c33;
@@ -263,8 +263,12 @@ button.support-tariffs {
     font-family: Montserrat, sans-serif;
 }
 
+/* background: linear-gradient(60deg, #040613, #1E1F2B); */
+
 .support-from-dc-block {
     margin-bottom: 55px;
+    z-index: 2;
+    position: relative;
 }
 
 .support-from-dc-block .block-title {
@@ -276,6 +280,7 @@ button.support-tariffs {
     display: flex;
     flex-wrap: wrap;
     padding: 0 12px;
+    margin-bottom: -262px;
 }
 
 .support-opportunity-card {
@@ -319,6 +324,7 @@ button.support-tariffs {
     position: relative;
 }
 
+/* Colors: from #040613 to #1E1F2B */
 
 .support-opportunity-card .card-image {
     position: absolute;
@@ -330,6 +336,48 @@ button.support-tariffs {
 .support-opportunity-card .card-image img {
     width: 100%;
     height: auto;
+}
+
+.expertise-block-content {
+    padding-top: 380px;
+    padding-bottom: 150px;
+    position: relative;
+    background: linear-gradient(60deg, #040613, #1E1F2B);
+}
+
+.expertise-block .expertise-laptop-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+}
+
+.expertise-block .expertise-laptop {
+    width: 100%;
+    transform: translateY(16%);
+}
+
+
+.expertise-block  .block-title {
+    color: #fff;
+}
+
+.expertise-block .expertises {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.expertise-block .expertises {
+    margin-top: 60px;
+}
+
+.expertise-block .expertises .achieve-content {
+    width: initial;
+}
+
+.expertise-block .expertises .achieve-content .achieve-description {
+    font-size: 16px;
+    font-weight: 500;
 }
 
 @media screen and (min-width: 768px){
@@ -344,6 +392,7 @@ button.support-tariffs {
     .support-block-header {
         text-align: initial;
     }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -362,9 +411,36 @@ button.support-tariffs {
 }
 
 @media screen and (max-width: 767px){
+
+    .support-block-title {
+        font-size: 42px;
+    }
+
     .block-title{
         font-size: 24px;
     }
+
+    .support-opportunity-card .card-content {
+        min-height: 220px;
+    }
+
+    .expertise-block  .block-title {
+        margin-top: 205px;
+    }
+
+    .expertise-block .expertise-laptop-container {
+        width: 85%;
+        position: relative;
+    }
+
+    .expertise-block-content {
+        padding-top: 40px;
+    }
+
+    .expertise-block-content .expertises {
+        margin-top: 20px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
