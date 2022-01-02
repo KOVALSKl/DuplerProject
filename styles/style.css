@@ -338,15 +338,19 @@ button.support-tariffs {
     height: auto;
 }
 
-.expertise-block-content {
-    padding-top: 380px;
-    padding-bottom: 150px;
-    position: relative;
+.expertise-block {
+    position: absolute;
+    padding-top: 230px;
     background: linear-gradient(60deg, #040613, #1E1F2B);
+    width: 100%;
+}
+
+.expertise-block-content {
+    position: relative;
 }
 
 .expertise-block .expertise-laptop-container {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 50%;
@@ -372,7 +376,7 @@ button.support-tariffs {
 }
 
 .expertise-block .expertises .achieve-content {
-    width: initial;
+    width: 260px;
 }
 
 .expertise-block .expertises .achieve-content .achieve-description {
@@ -408,6 +412,10 @@ button.support-tariffs {
         font-size: 32px;
     }
 
+    .expertise-block .expertise-laptop-container {
+        width: 70%;
+    }
+
 }
 
 @media screen and (max-width: 767px){
@@ -422,10 +430,6 @@ button.support-tariffs {
 
     .support-opportunity-card .card-content {
         min-height: 220px;
-    }
-
-    .expertise-block  .block-title {
-        margin-top: 205px;
     }
 
     .expertise-block .expertise-laptop-container {
@@ -446,5 +450,14 @@ button.support-tariffs {
 @media screen and (min-width: 992px) {
     .improvement-icon {
         text-align: initial;
+    }
+
+    .expertise-block {
+        padding-top: 380px;
+        padding-bottom: 150px;
+    }
+
+    .expertise-block .expertise-laptop-container {
+        position: absolute;
     }
 }
