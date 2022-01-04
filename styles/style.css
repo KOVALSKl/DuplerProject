@@ -339,7 +339,7 @@ button.support-tariffs {
 }
 
 .expertise-block {
-    position: absolute;
+    position: relative;
     padding-top: 230px;
     background: linear-gradient(60deg, #040613, #1E1F2B);
     width: 100%;
@@ -382,6 +382,39 @@ button.support-tariffs {
 .expertise-block .expertises .achieve-content .achieve-description {
     font-size: 16px;
     font-weight: 500;
+}
+
+/* PLANS BLOCK */
+
+.plans-block {
+    margin: 150px 0;
+}
+
+.plans-block-content .block-title {
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 65px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.plans-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.plan {
+    padding: 60px 0;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.plan .achieve-title {
+    color: #f14d34;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 @media screen and (min-width: 768px){
