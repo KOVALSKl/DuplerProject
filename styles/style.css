@@ -387,11 +387,14 @@ button.support-tariffs {
 /* PLANS BLOCK */
 
 .plans-block {
-    margin: 150px 0;
+    padding: 160px 0 90px;
+    background: url(https://drupal-coder.ru/themes/custom/bootstrap_dc/images/D-background-opacity.svg)
+    no-repeat right top; 
+    background-size: 58%;
 }
 
 .plans-block-content .block-title {
-    color: black;
+    color: #050c33;
     text-align: center;
     margin-top: 0;
     margin-bottom: 65px;
@@ -403,19 +406,99 @@ button.support-tariffs {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 
 .plan {
-    padding: 60px 0;
-    border: 1px solid gray;
-    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
-.plan .achieve-title {
+.plan .plan-content {
+    background-color: #fff;
+    padding: 70px 30px 60px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+.plan .plan-content:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 60px rgba(162,162,162,.25);
+}
+
+.plan .plan-content:hover .plan-btn {
+    color: #fff;
+    background-color: #f14d34;
+}
+
+.plan .plan-header {
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 50px;
+}
+
+.plan-content .plan-header .plan-title {
     color: #f14d34;
     font-size: 22px;
     font-weight: bold;
+    line-height: 1.3;
 }
+
+.plan-content .conditions {
+    padding-left: 20px;
+    list-style-image: url(https://drupal-coder.ru/themes/custom/bootstrap_dc/images/checkmark.svg);
+}
+
+.plan-content .conditions li {
+    margin-bottom: 18px;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #4e5972;
+    font-weight: 500;
+}
+
+.plan-footer {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.plan-footer .plan-btn {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+    padding: 20px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #f14d34;
+    border: 1px solid #f14d34;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition-duration: 0.5s;
+}
+
+.plans-row .block-footer {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #828A9B;
+    font-weight: 500;
+}
+
+.plans-row .block-footer .plans-form-link {
+    display: block;
+    margin-top: 26px;
+    font-size: 12px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color:#050c33;
+    transition-duration: 0.5s;
+}
+
+.plans-row .block-footer .plans-form-link:hover {
+    text-decoration: none;
+    color: #f14d34
+}
+
 
 @media screen and (min-width: 768px){
     #mobile-menu {
@@ -476,6 +559,10 @@ button.support-tariffs {
 
     .expertise-block-content .expertises {
         margin-top: 20px;
+    }
+
+    .plans-block {
+        background-size: cover;
     }
 
 }
