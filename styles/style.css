@@ -421,16 +421,6 @@ button.support-tariffs {
     transition-duration: 0.5s;
 }
 
-.plan .plan-content:hover {
-    transform: scale(1.1);
-    box-shadow: 0 4px 60px rgba(162,162,162,.25);
-}
-
-.plan .plan-content:hover .plan-btn {
-    color: #fff;
-    background-color: #f14d34;
-}
-
 .plan .plan-header {
     border-bottom: 2px solid lightgray;
     margin-bottom: 50px;
@@ -485,7 +475,7 @@ button.support-tariffs {
 }
 
 .plans-row .block-footer .plans-form-link {
-    display: block;
+    display: inline-block;
     margin-top: 26px;
     font-size: 12px;
     text-decoration: underline;
@@ -499,6 +489,26 @@ button.support-tariffs {
     color: #f14d34
 }
 
+
+.plans-anim-div:hover .plan .plan-content.active{
+    transform: initial;
+    box-shadow: initial;
+}
+
+.plans-anim-div:hover .plan .plan-content.active .plan-btn {
+    color: #f14d34;
+    background-color: initial;
+}
+
+.plans-anim-div .plan .plan-content.active{
+    /* transform: scale(1.1); */
+    box-shadow: 0 4px 60px rgba(162,162,162,.25);
+}
+
+.plans-anim-div .plan .plan-content.active .plan-btn {
+    color: #fff;
+    background-color: #f14d34;
+}
 
 @media screen and (min-width: 768px){
     #mobile-menu {
@@ -579,5 +589,19 @@ button.support-tariffs {
 
     .expertise-block .expertise-laptop-container {
         position: absolute;
+    }
+
+    .plan .plan-content:hover {
+        transform: scale(1.1)!important;
+        box-shadow: 0 4px 60px rgba(162,162,162,.25)!important;
+    }
+
+    .plan .plan-content:hover .plan-btn {
+        color: #fff!important;
+        background-color: #f14d34!important;
+    }
+
+    .plans-anim-div .plan .plan-content.active{
+        transform: scale(1.1);
     }
 }
