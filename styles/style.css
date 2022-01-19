@@ -509,6 +509,114 @@ button.support-tariffs {
     color: #fff;
     background-color: #f14d34;
 }
+.cases-row {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+
+.cases-row .case-date {
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.cases-row .case-picture img{
+    border-radius: 5px;
+    height: 100%;
+    max-width: initial;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    display: block;
+    overflow: hidden;
+}
+
+.case-content {
+    padding: 0 20px 70px 20px;
+}
+
+.cases-row .case-picture {
+    position: relative;
+    border-radius: 5px;
+}
+
+.case-picture {
+    margin-bottom: 40px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.case-picture img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+.cases-row .small-case, .cases-row .large-case {
+    padding: 0 10px;
+    margin-bottom: 20px;
+    height: 475px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.cases-row .small-case .case-header a {
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #050c33;
+}
+
+.cases-row .small-case .case-picture img {
+    max-width: 390px;
+    overflow: hidden;
+}
+
+.cases-row .large-case .description {
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 50px 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cases-row .large-case .case-date, .large-case .description a {
+    color: #fff;
+}
+
+.last-cases-block .container .show-more {
+    display: flex;
+    justify-content: center;
+}
+
+.last-cases-block .container .show-more-button {
+    text-decoration: none;
+    border: 1px solid #828A9B;
+    border-radius: 5px;
+    width: 260px;
+}
+
+.last-cases-block .container .show-more-button a {
+    text-decoration: none;
+    padding: 24px 75px;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: #050c33;
+}
+.last-cases-block .block-content .block-title {
+    text-align: center;
+    color: #050c33;
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: bold;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
 
 @media screen and (min-width: 768px){
     #mobile-menu {
