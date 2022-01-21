@@ -554,7 +554,7 @@ button.support-tariffs {
 .cases-row .small-case, .cases-row .large-case {
     padding: 0 10px;
     margin-bottom: 20px;
-    height: 475px;
+    height: 485px;
     border-radius: 5px;
     overflow: hidden;
 }
@@ -586,16 +586,9 @@ button.support-tariffs {
     color: #fff;
 }
 
-.last-cases-block .container .show-more {
-    display: flex;
-    justify-content: center;
-}
-
-.last-cases-block .container .show-more-button {
-    text-decoration: none;
-    border: 1px solid #828A9B;
-    border-radius: 5px;
-    width: 260px;
+.last-cases-block .show-more-button {
+    text-align: center;
+    margin-top: 40px;
 }
 
 .last-cases-block .container .show-more-button a {
@@ -603,10 +596,12 @@ button.support-tariffs {
     padding: 24px 75px;
     text-transform: uppercase;
     font-size: 12px;
-    display: block;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
+    border: 1px solid #828A9B;
+    border-radius: 7px;
     color: #050c33;
 }
+
 .last-cases-block .block-content .block-title {
     text-align: center;
     color: #050c33;
