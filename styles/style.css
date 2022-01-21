@@ -613,6 +613,71 @@ button.support-tariffs {
     margin-bottom: 60px;
 }
 
+.last-cases-block {
+    padding: 160px 0;
+}
+
+.team-block {
+    padding-top: 90px;
+    padding-bottom: 160px;
+    font-family: Montserrat, Arial, sans-serif;
+}
+
+.team-block .content .block-title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.team-block .content .flex-row {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.team-block .teammate-card {
+    padding: 0 50px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.team-block .teammate-card img{
+    max-width: 100%;
+}
+
+.team-block .teammate-card .title {
+    padding-top: 30px;
+    margin-bottom: 5px;
+    line-height: 1.37;
+    font-size: 16px;
+    font-weight: bold;
+    color: #050c33;
+}
+
+.team-block .teammate-card .description {
+    font-size: 16px;   
+    font-weight: 500;
+    color: #4f5a73;
+    margin-bottom: 70px;
+}
+
+.command-button { text-align: center; }
+
+.command-button a{
+    padding:20px 30px;
+    font-size: 16px;
+    color: #050c33;
+    padding: 20px 70px;
+    border-radius: 7px;
+    border: 1px solid #abc;
+    background-color:#fff;
+}
+
+.command-button a:hover {
+    text-decoration: none;
+    color: #050c33;
+}
+
+
 @media screen and (min-width: 768px){
     #mobile-menu {
         display: none;
