@@ -677,6 +677,173 @@ button.support-tariffs {
     color: #050c33;
 }
 
+.footer-block {
+    padding-top: 120px;
+	padding-bottom: 20px;
+    background: linear-gradient(60deg, #040613, #1E1F2B), url("./images/D-flying.svg") no-repeat top center, url("./images/D-footer.svg") no-repeat bottom right;
+    color: #fff;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.footer-block .container {
+    margin-bottom: 70px;
+}
+
+.footer-block .info-block {
+    width: 480px;
+}
+
+.footer-block .info-block .title {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.footer-block .info-block .description {
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: 0.7;
+}
+
+.footer-block .info-block .contact-info {
+    margin-top: 140px;
+}
+
+.footer-block .info-block .contact-info a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding-left: 40px;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.footer-block .info-block .contact-info .contact-phone a{
+    font-size: 20px;
+    margin-bottom: 5px;
+    background: url("https://drupal-coder.ru/themes/custom/bootstrap_dc/images/phone.svg") no-repeat left center;
+}
+
+.footer-block .info-block .contact-info .contact-mail a{
+    margin-bottom: 5px;
+    background: url("https://drupal-coder.ru/themes/custom/bootstrap_dc/images/mail.svg") no-repeat left center;
+    text-decoration: underline;
+}
+
+.footer-block .contact-form {
+    width: 480px;
+    margin-left: auto;
+}
+
+.footer-block .contact-form .form-control {
+    background-color: transparent;
+    padding: 25px;
+    border-radius: 7px;  
+}
+
+.footer-block .contact-form .form-control:focus {
+    border-color: #f14d34;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(241, 77, 52, 0.6);
+}
+
+.form-check {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-check .checkbox-container {
+    display: inline;
+}
+
+.form-check .checkbox-container .form-check-input {
+    height: 18px;
+    width: 18px;
+}
+
+.form-check .label-container {
+    padding-left: 18px;
+}
+
+.form-check .form-check-label {   
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 1.1;
+    display: inline;
+}
+
+.form-check .form-check-label a {
+    color: #f14d34;
+}
+
+.form-check .form-check-label span {
+    font-size: 18px;
+    color: red;
+}
+
+footer {
+    padding-top: 60px;
+}
+
+.footer-block footer .description .contact-links {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.description .contact-links .contact-link {
+    margin-right: 10px;
+    background-color: #f14d34;
+    border: 1px solid #f14d34;
+    border-radius: 5px;
+    padding: 5px;
+    transition-duration: 0.5s;
+}
+
+.description .contact-links .contact-link:hover {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.description .contact-links .contact-link img{
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+}
+
+.description .com-info {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.connect-button {
+    text-align: center;
+}
+
+.connect-button a {
+    padding: 22px 0;
+    text-decoration: none;
+    display: block;
+    border: 2px solid #f14d34;
+    color:#fff;
+    border-radius: 5px;
+    width: 480px;
+    max-width: 100%;
+    background-color: #f14d34;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1;
+    text-transform: uppercase;
+    transition-duration: 0.5s;
+}
+
+.connect-button a:hover, .connect-button a:visited {
+    background-color: transparent;
+    text-decoration: none;
+    color:#fff;
+}
+
 
 @media screen and (min-width: 768px){
     #mobile-menu {
