@@ -104,7 +104,8 @@ body, html {
 .support-block-background {
     position: relative;
     overflow: hidden;
-    background-color: black;
+    /* background-color: black; */
+    background: url(../images/druplicon.svg) no-repeat left top black;
     z-index: 1;
     padding:0!important;
 }
@@ -338,10 +339,13 @@ button.support-tariffs {
     height: auto;
 }
 
+.expertise-block-container {
+    background: url(../images/druplicon.svg) no-repeat right top, linear-gradient(-120deg, #040613, #1E1F2B);
+}
+
 .expertise-block {
     position: relative;
     padding-top: 230px;
-    background: linear-gradient(60deg, #040613, #1E1F2B);
     width: 100%;
 }
 
@@ -679,13 +683,13 @@ button.support-tariffs {
 
 .footer-block {
     padding-top: 120px;
-	padding-bottom: 20px;
-    background: linear-gradient(60deg, #040613, #1E1F2B), url("./images/D-flying.svg") no-repeat top center, url("./images/D-footer.svg") no-repeat bottom right;
+	padding-bottom: 10px;
+    background: url(../images/D-flying.svg) no-repeat top center, url(../images/D-footer.svg) no-repeat bottom right, linear-gradient(60deg, #040613, #1E1F2B);
     color: #fff;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 
-.footer-block .container {
+.footer-block .row {
     margin-bottom: 70px;
 }
 
