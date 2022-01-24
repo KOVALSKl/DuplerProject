@@ -32,6 +32,8 @@ function onReady() {
     userMsg.value = localStorage.getItem("message");
     userPhone.value = localStorage.getItem("phone");
 
+    console.log(`${userName} : UserName; ${userEmail} : UserEmail; + ${userMsg} : UserPhone + ${userPhone}`);
+
     form.addEventListener("submit", async function (e) {
         let user = {
             name: userName,
@@ -41,8 +43,6 @@ function onReady() {
             phone: userPhone
         };
         let url = "https://formcarry.com/s/S2CSA3XtYcs";
-        saveToLocalStorage();
-        clearEntries();
         policyCheck.ariaChecked = false;
         let response = await fetch(url, {
             method: 'POST',
