@@ -2,7 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    -webkit-overflow-scrolling:touch
+    -webkit-overflow-scrolling: touch
 }
 
 .achieve-title {
@@ -23,7 +23,7 @@ body, html {
 
 
 #main-menu .container {
-    padding-top: 30px!important;
+    padding-top: 30px !important;
 }
 
 .main-menu-title {
@@ -34,7 +34,7 @@ body, html {
 #menu {
     order: 0;
     list-style-type: none;
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -47,9 +47,8 @@ body, html {
     color: #fff;
     font-family: Ubuntu, Montserrat, sans-serif;
     text-decoration: none;
+    font-weight: 500;
     font-size: 12px;
-    line-height: 10px;
-    letter-spacing: 1pt;
     text-transform: uppercase;
     border-bottom: 3px solid transparent;
     padding-bottom: 5px;
@@ -60,14 +59,20 @@ body, html {
     border-bottom-color: #f14d34;
 }
 
-.other-info{
-    order: 1;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: Montserrat; 
-    line-height: 1.4;
-    float: right;
+#menu li.dropdown .dropdown-menu {
+    background: #f14d34;
+    height: auto;
+    border-radius: 0;
+    padding: 5px 0;
+}
+
+#menu li.dropdown .dropdown-menu li {
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+#menu li.dropdown .dropdown-menu li a:hover {
+    background: rgb(201, 36, 36);
 }
 
 .md-screen-solver {
@@ -107,7 +112,7 @@ body, html {
     /* background-color: black; */
     background: url(../images/druplicon.svg) no-repeat left top black;
     z-index: 1;
-    padding:0!important;
+    padding: 0 !important;
 }
 
 .support-block-background video {
@@ -312,7 +317,7 @@ button.support-tariffs {
     min-height: 292px;
     height: 100%;
     border-radius: 5px;
-    box-shadow: 20px 20px 40px rgba(5,12,51, .1);
+    box-shadow: 20px 20px 40px rgba(5, 12, 51, .1);
 }
 
 .support-opportunity-card .card-description {
@@ -366,7 +371,7 @@ button.support-tariffs {
 }
 
 
-.expertise-block  .block-title {
+.expertise-block .block-title {
     color: #fff;
 }
 
@@ -392,8 +397,7 @@ button.support-tariffs {
 
 .plans-block {
     padding: 160px 0 90px;
-    background: url(https://drupal-coder.ru/themes/custom/bootstrap_dc/images/D-background-opacity.svg)
-    no-repeat right top; 
+    background: url(https://drupal-coder.ru/themes/custom/bootstrap_dc/images/D-background-opacity.svg) no-repeat right top;
     background-size: 58%;
 }
 
@@ -470,7 +474,7 @@ button.support-tariffs {
     transition-duration: 0.5s;
 }
 
-.plans-row .block-footer {
+.block-footer {
     padding-top: 40px;
     text-align: center;
     font-size: 16px;
@@ -484,7 +488,7 @@ button.support-tariffs {
     font-size: 12px;
     text-decoration: underline;
     text-transform: uppercase;
-    color:#050c33;
+    color: #050c33;
     transition-duration: 0.5s;
 }
 
@@ -494,7 +498,7 @@ button.support-tariffs {
 }
 
 
-.plans-anim-div:hover .plan .plan-content.active{
+.plans-anim-div:hover .plan .plan-content.active {
     transform: initial;
     box-shadow: initial;
 }
@@ -504,15 +508,16 @@ button.support-tariffs {
     background-color: initial;
 }
 
-.plans-anim-div .plan .plan-content.active{
+.plans-anim-div .plan .plan-content.active {
     /* transform: scale(1.1); */
-    box-shadow: 0 4px 60px rgba(162,162,162,.25);
+    box-shadow: 0 4px 60px rgba(162, 162, 162, .25);
 }
 
 .plans-anim-div .plan .plan-content.active .plan-btn {
     color: #fff;
     background-color: #f14d34;
 }
+
 .cases-row {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
@@ -524,7 +529,7 @@ button.support-tariffs {
     opacity: 0.5;
 }
 
-.cases-row .case-picture img{
+.cases-row .case-picture img {
     border-radius: 5px;
     height: 100%;
     max-width: initial;
@@ -549,7 +554,7 @@ button.support-tariffs {
     border-radius: 5px;
 }
 
-.case-picture img{
+.case-picture img {
     max-width: 100%;
     border-radius: 5px;
 }
@@ -644,7 +649,7 @@ button.support-tariffs {
     max-width: 100%;
 }
 
-.team-block .teammate-card img{
+.team-block .teammate-card img {
     max-width: 100%;
 }
 
@@ -658,22 +663,24 @@ button.support-tariffs {
 }
 
 .team-block .teammate-card .description {
-    font-size: 16px;   
+    font-size: 16px;
     font-weight: 500;
     color: #4f5a73;
     margin-bottom: 70px;
 }
 
-.command-button { text-align: center; }
+.command-button {
+    text-align: center;
+}
 
-.command-button a{
-    padding:20px 30px;
+.command-button a {
+    padding: 20px 30px;
     font-size: 16px;
     color: #050c33;
     padding: 20px 70px;
     border-radius: 7px;
     border: 1px solid #abc;
-    background-color:#fff;
+    background-color: #fff;
 }
 
 .command-button a:hover {
@@ -683,7 +690,7 @@ button.support-tariffs {
 
 .footer-block {
     padding-top: 120px;
-	padding-bottom: 10px;
+    padding-bottom: 10px;
     background: url(../images/D-flying.svg) no-repeat top center, url(../images/D-footer.svg) no-repeat bottom right, linear-gradient(60deg, #040613, #1E1F2B);
     color: #fff;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
@@ -695,6 +702,7 @@ button.support-tariffs {
 
 .footer-block .info-block {
     width: 480px;
+    max-width: 100%;
 }
 
 .footer-block .info-block .title {
@@ -723,32 +731,63 @@ button.support-tariffs {
     line-height: 1.1;
 }
 
-.footer-block .info-block .contact-info .contact-phone a{
+.footer-block .info-block .contact-info .contact-phone a {
     font-size: 20px;
     margin-bottom: 5px;
     background: url("https://drupal-coder.ru/themes/custom/bootstrap_dc/images/phone.svg") no-repeat left center;
 }
 
-.footer-block .info-block .contact-info .contact-mail a{
+.footer-block .info-block .contact-info .contact-mail a {
     margin-bottom: 5px;
     background: url("https://drupal-coder.ru/themes/custom/bootstrap_dc/images/mail.svg") no-repeat left center;
     text-decoration: underline;
 }
 
-.footer-block .contact-form {
+.contact-form {
+    max-width: 100%;
     width: 480px;
     margin-left: auto;
 }
 
-.footer-block .contact-form .form-control {
+.contact-form .form-control {
     background-color: transparent;
+    color:#f14d34;
     padding: 25px;
-    border-radius: 7px;  
+    border-radius: 7px;
 }
 
-.footer-block .contact-form .form-control:focus {
+.contact-form .form-control:focus {
     border-color: #f14d34;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(241, 77, 52, 0.6);
+}
+
+.popup-container {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup {
+    margin: 5px;
+    background-color: #fff;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.popup-body button.connect-button:hover {
+    background-color: #c6341e;  
+}
+
+.close:hover,
+.close:focus {
+    cursor: pointer;
 }
 
 .form-check {
@@ -770,7 +809,7 @@ button.support-tariffs {
     padding-left: 18px;
 }
 
-.form-check .form-check-label {   
+.form-check .form-check-label {
     font-size: 12px;
     font-weight: 100;
     line-height: 1.1;
@@ -809,7 +848,7 @@ footer {
     background-color: transparent;
 }
 
-.description .contact-links .contact-link img{
+.description .contact-links .contact-link img {
     width: 20px;
     height: 20px;
     filter: invert(1);
@@ -821,16 +860,17 @@ footer {
     opacity: 0.7;
 }
 
-.connect-button {
+button.connect-button {
     text-align: center;
 }
 
-.connect-button a {
+button.connect-button {
     padding: 22px 0;
+    max-width: 100%;
     text-decoration: none;
     display: block;
     border: 2px solid #f14d34;
-    color:#fff;
+    color: #fff;
     border-radius: 5px;
     width: 480px;
     max-width: 100%;
@@ -842,18 +882,58 @@ footer {
     transition-duration: 0.5s;
 }
 
-.connect-button a:hover, .connect-button a:visited {
+button.connect-button:hover {
     background-color: transparent;
     text-decoration: none;
-    color:#fff;
+    color: #fff;
 }
 
+/* WORK WITH US */
 
-@media screen and (min-width: 768px){
+.work-with-us-block .container {
+    text-align: center;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.work-with-us-block .block-footer {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.slider {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.slider-item {
+    display: flex;
+    padding: 40px 30px;
+    margin: 0 10px;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.slider-item img {
+    display: block;
+    max-width: 100%;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
     #mobile-menu {
         display: none;
     }
-    
+
     #main-menu {
         display: initial;
     }
@@ -873,7 +953,7 @@ footer {
         margin-bottom: 30px;
     }
 
-    .block-title{
+    .block-title {
         font-size: 32px;
     }
 
@@ -881,15 +961,28 @@ footer {
         width: 70%;
     }
 
+    .contact-form {
+        margin-right: auto;
+    }
+
+    .footer-block {
+        padding-bottom: 70px;
+    }
+
+    .footer-block .info-block .contact-info {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
 
     .support-block-title {
         font-size: 42px;
     }
 
-    .block-title{
+    .block-title {
         font-size: 24px;
     }
 
@@ -931,16 +1024,16 @@ footer {
     }
 
     .plan .plan-content:hover {
-        transform: scale(1.1)!important;
-        box-shadow: 0 4px 60px rgba(162,162,162,.25)!important;
+        transform: scale(1.1) !important;
+        box-shadow: 0 4px 60px rgba(162, 162, 162, .25) !important;
     }
 
     .plan .plan-content:hover .plan-btn {
-        color: #fff!important;
-        background-color: #f14d34!important;
+        color: #fff !important;
+        background-color: #f14d34 !important;
     }
 
-    .plans-anim-div .plan .plan-content.active{
+    .plans-anim-div .plan .plan-content.active {
         transform: scale(1.1);
     }
 }
